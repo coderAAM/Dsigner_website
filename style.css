@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background:url(user.png);
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.navber a{
+   text-decoration: none; 
+   color: white;
+   padding: 0px 10px;
+   font-size: 17px;
+   font-weight: 600;
+   transition: 1s ease;
+}
+.navber h1{
+    font-size: 60px;
+    width: 50%;
+    color: red;
+}
+.navber h1 label{
+    color: #0fe;
+}
+.navber a:hover{
+    color: red;
+}
+.navber label a{
+    color: red;
+}
+@media only screen and (max-width:600px) {
+    .navber{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navber img{
+        margin-bottom: 10px;
+    }
+    
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.center h1{
+    color:white;
+}
+.center h1 label{
+    color: red;
+}
+.center p{
+    color: white;
+    width: 70%;
+    
+}
+.center button{
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.center button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.center i{
+    color: rgba(57, 57, 175, 0.913);
+    padding: 0px 10px;
+    font-size: 30px;
+    background-color: transparent;
+}
+.center i:hover{
+    box-shadow: 0 0 10px white;
+}
+@media only screen and (max-width:600px) {
+   .center i{
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 0 10px black;
+    flex-direction: column;
+    border-radius: 100px;
+   }
+   .center h1 label:hover{
+    color: #0fe;
+    transition: 2s ease;
+   }
+   .center p{
+    width: 60%;
+   }
+   body{
+    background: url(WhatsApp\ Image\ 2024-03-16\ at\ 6.07.41\ PM.jpeg);
+    background-size: cover;
+    background-position: calc(70%);
+   }
+   .center button{
+    background-color:#0fe;
+   }
+   .page1{
+    background: url(user.png);
+    background-size: cover;
+    background-position: center;
+   }
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.page1 p{
+    margin: 20px;
+}
+.page1 button{
+   margin-top:50px ;
+   padding: 10px 20px;
+   width: 50%;
+   border: none;
+   background-color: red;
+   font-size: 20px;
+   color: black;
+   cursor: pointer;
+   border-radius: 50px;
+   transition: 1s ease;
+}
+.page1 button:hover{
+    background-color: #0fe;
+}
+.page1:hover{
+    background: url(nice.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
